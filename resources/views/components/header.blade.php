@@ -1,7 +1,7 @@
 <header>
     <div class="container">
         <div class="logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/DC_Comics_logo.svg/600px-DC_Comics_logo.svg.png" alt="DC logo">
+            <img src="{{ asset('img/dc-logo.png') }}" alt="DC logo">
         </div>
     
         <nav>
@@ -22,5 +22,5 @@
 </header>
 
 <div class="jumbo">
-    
+
 </div>
