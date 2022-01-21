@@ -49,3 +49,36 @@
       background-repeat: no-repeat;
       background-position: center;
   }
+
+  #home-page-content {
+      position: relative;
+      padding: 20px 0;
+
+      .title-wrapper {
+          text-transform: uppercase;
+          color: white;
+          background-color: #0282f9;
+          padding: 10px 25px;
+          position: absolute;
+          top: -25px;
+      }
+
+      .cards-container {
+          display: flex;
+          flex-wrap: wrap;
+
+          .card {
+              width: calc(100% / 6 - 10px);
+              margin: 20px 5px;
+
+              .card-img {
+                  max-height: 200px;
+                  overflow: hidden;
+
+                  img {
+                      width: 100%;
+                  }
+              }
+          }
+      }
+  }

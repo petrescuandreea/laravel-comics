@@ -46,3 +46,36 @@ header nav ul li a {
   background-position: center;
 }
 
+#home-page-content {
+  position: relative;
+  padding: 20px 0;
+}
+
+#home-page-content .title-wrapper {
+  text-transform: uppercase;
+  color: white;
+  background-color: #0282f9;
+  padding: 10px 25px;
+  position: absolute;
+  top: -25px;
+}
+
+#home-page-content .cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#home-page-content .cards-container .card {
+  width: calc(16.6666666667% - 10px);
+  margin: 20px 5px;
+}
+
+#home-page-content .cards-container .card .card-img {
+  max-height: 200px;
+  overflow: hidden;
+}
+
+#home-page-content .cards-container .card .card-img img {
+  width: 100%;
+}
+
