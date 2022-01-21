@@ -127,6 +127,12 @@
                     </div>
                 </div>
             </div>
+
+            <div class="btn-container" >
+                <div class="btn-load-more">
+                    <h5>load more</h5>
+                </div>
+            </div>
         </div>
     </section>
 @endsection
