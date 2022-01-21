@@ -40,16 +40,20 @@ header nav ul li a {
 
 .jumbo {
   height: 400px;
-  background-image: url("https://image.tmdb.org/t/p/w1920_and_h800_multi_faces/3VdbzXAS3LY3shfsKw266W9jQiG.jpg");
+  background-image: url("/img/jumbotron.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
 }
 
 #home-page-content {
   position: relative;
   padding: 20px 0;
   background-color: #1c1c1c;
+}
+
+#home-page-content .container {
+  display: block;
 }
 
 #home-page-content .title-wrapper {
@@ -82,5 +86,58 @@ header nav ul li a {
 
 #home-page-content .cards-container .card .card-title {
   color: white;
+}
+
+#home-page-content .btn-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#home-page-content .btn-container .btn-load-more {
+  width: 20%;
+  text-transform: uppercase;
+  padding: 10px 40px;
+  display: inline-block;
+  background-color: #0282f9;
+  cursor: pointer;
+  transition: all;
+}
+
+#home-page-content .btn-container .btn-load-more:hover {
+  background-color: #71ace2;
+}
+
+#home-page-content .btn-container .btn-load-more:hover h5 {
+  transform: scale(1.2);
+}
+
+#home-page-shop {
+  background-color: #0282f9;
+  padding: 50px 0;
+}
+
+#home-page-shop ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#home-page-shop ul li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+#home-page-shop ul li a {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+#home-page-shop ul li a img {
+  height: 50px;
+  margin-right: 10px;
 }
 
