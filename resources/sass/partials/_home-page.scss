@@ -3,6 +3,10 @@
     padding: 20px 0;
     background-color: rgba(28,28,28,255);
 
+    .container {
+        display: block;
+    }
+
     .title-wrapper {
         text-transform: uppercase;
         color: white;
@@ -31,6 +35,29 @@
 
             .card-title {
                 color: white;
+            }
+        }
+    }
+
+    .btn-container {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+
+        .btn-load-more {
+            width: 20%;
+            text-transform: uppercase;
+            padding: 10px 40px;
+            display: inline-block;
+            background-color: #0282f9;
+            cursor: pointer;
+            transition: all;
+
+            &:hover {
+                background-color: #71ace2;
+            }
+            &:hover h5 {
+                transform: scale(1.2);
             }
         }
     }
