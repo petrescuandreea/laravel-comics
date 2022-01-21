@@ -13,6 +13,7 @@
       align-items: center;
   }
 
+//   header 
   header {
       height: 150px;
       display: flex;
@@ -50,9 +51,12 @@
       background-position: center;
   }
 
+
+//   home-page 
   #home-page-content {
       position: relative;
       padding: 20px 0;
+      background-color: rgba(28,28,28,255);
 
       .title-wrapper {
           text-transform: uppercase;
@@ -79,6 +83,13 @@
                       width: 100%;
                   }
               }
+
+              .card-title {
+                  color: white;
+              }
           }
       }
   }
+
+
+//   footer 

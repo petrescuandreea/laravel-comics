@@ -49,6 +49,7 @@ header nav ul li a {
 #home-page-content {
   position: relative;
   padding: 20px 0;
+  background-color: #1c1c1c;
 }
 
 #home-page-content .title-wrapper {
@@ -77,5 +78,9 @@ header nav ul li a {
 
 #home-page-content .cards-container .card .card-img img {
   width: 100%;
+}
+
+#home-page-content .cards-container .card .card-title {
+  color: white;
 }
 
