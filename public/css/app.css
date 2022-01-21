@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  height: 150px;
+  display: flex;
+}
+
+header .logo {
+  width: 80px;
+}
+
+header .logo img {
+  max-width: 100%;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #8e8c8e;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 48px 5px;
+}
+
+.jumbo {
+  height: 400px;
+  background-image: url("https://image.tmdb.org/t/p/w1920_and_h800_multi_faces/3VdbzXAS3LY3shfsKw266W9jQiG.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
