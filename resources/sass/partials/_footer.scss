@@ -1,0 +1,111 @@
+#footer-nav {
+    background-image: url("/img/footer-bg.jpg");
+
+    #nav-container {
+        float: left;
+
+        #nav-links  {
+            display: flex;
+            margin: 50px 0;
+
+            #left-nav,
+            #mid-nav,
+            #right-nav {
+                margin-right: 30px;
+                
+                h3 {
+                    color: white;
+                    font-size: 15px;
+                    text-transform: uppercase;
+                    margin: 20px 0 5px 0;
+                }
+        
+                li {
+                    list-style-type: none;
+        
+                    a {
+                        color: #5c5c5c;
+                        font-size: 10px;
+                        text-decoration: none;
+        
+                        &:hover {
+                            color: #0282F9;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+
+        #copyright {
+            p {
+                color: #5c5c5c;
+
+                a {
+                    color: #0282F9;
+                    text-decoration: none;
+                }
+                
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    
+    .logo{
+        float: right;
+    
+        img {
+                width: 600px;
+                height: 400px;
+                object-fit: none;
+        }
+    }
+}
+
+#footer-sm-channels {
+    background-color: #303030;
+    height: 100px;
+    display: flex;
+
+    button {
+        border: 2px solid rgba(5,123,232,255);
+        padding: 15px;
+        color: white;
+        background-color: transparent;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all .8s ease;
+
+        &:hover {
+            background-color: rgba(5,123,232,255);
+        }
+    }
+
+    #sm-channels {
+        display: flex;
+        align-items: center;
+
+        span {
+            margin-right: 15px;
+            color: rgba(8,120,222,255);
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        ul li {
+            display: inline;
+            margin: 0 5px;
+
+            a {
+                text-decoration: none;
+            }
+
+            &:hover {
+                cursor: pointer;
+                filter: grayscale(0.80);
+            }
+        }
+    }
+}
