@@ -141,3 +141,122 @@ header nav ul li a {
   margin-right: 10px;
 }
 
+#footer-nav {
+  background-image: url("/img/footer-bg.jpg");
+}
+
+#footer-nav #nav-container {
+  float: left;
+}
+
+#footer-nav #nav-container #nav-links {
+  display: flex;
+  margin: 50px 0;
+}
+
+#footer-nav #nav-container #nav-links #left-nav,
+#footer-nav #nav-container #nav-links #mid-nav,
+#footer-nav #nav-container #nav-links #right-nav {
+  margin-right: 30px;
+}
+
+#footer-nav #nav-container #nav-links #left-nav h3,
+#footer-nav #nav-container #nav-links #mid-nav h3,
+#footer-nav #nav-container #nav-links #right-nav h3 {
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 20px 0 5px 0;
+}
+
+#footer-nav #nav-container #nav-links #left-nav li,
+#footer-nav #nav-container #nav-links #mid-nav li,
+#footer-nav #nav-container #nav-links #right-nav li {
+  list-style-type: none;
+}
+
+#footer-nav #nav-container #nav-links #left-nav li a,
+#footer-nav #nav-container #nav-links #mid-nav li a,
+#footer-nav #nav-container #nav-links #right-nav li a {
+  color: #5c5c5c;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+#footer-nav #nav-container #nav-links #left-nav li a:hover,
+#footer-nav #nav-container #nav-links #mid-nav li a:hover,
+#footer-nav #nav-container #nav-links #right-nav li a:hover {
+  color: #0282F9;
+  cursor: pointer;
+}
+
+#footer-nav #nav-container #copyright p {
+  color: #5c5c5c;
+}
+
+#footer-nav #nav-container #copyright p a {
+  color: #0282F9;
+  text-decoration: none;
+}
+
+#footer-nav #nav-container #copyright p:hover {
+  cursor: pointer;
+}
+
+#footer-nav .logo {
+  float: right;
+}
+
+#footer-nav .logo img {
+  width: 600px;
+  height: 400px;
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+#footer-sm-channels {
+  background-color: #303030;
+  height: 100px;
+  display: flex;
+}
+
+#footer-sm-channels button {
+  border: 2px solid #057be8;
+  padding: 15px;
+  color: white;
+  background-color: transparent;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.8s ease;
+}
+
+#footer-sm-channels button:hover {
+  background-color: #057be8;
+}
+
+#footer-sm-channels #sm-channels {
+  display: flex;
+  align-items: center;
+}
+
+#footer-sm-channels #sm-channels span {
+  margin-right: 15px;
+  color: #0878de;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#footer-sm-channels #sm-channels ul li {
+  display: inline;
+  margin: 0 5px;
+}
+
+#footer-sm-channels #sm-channels ul li a {
+  text-decoration: none;
+}
+
+#footer-sm-channels #sm-channels ul li:hover {
+  cursor: pointer;
+  filter: grayscale(0.8);
+}
+
