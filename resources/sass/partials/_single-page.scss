@@ -1,0 +1,128 @@
+#comic {
+    .bg-light-blue {
+        height: 100px;
+        background-color: #0282f9;
+        position: relative;
+
+        .comic-img-wrapper {
+            border: 2px solid white;
+            background-color: #00a9d9;
+            position: absolute;
+            bottom: 25px;
+
+            a {
+                text-decoration: none;
+                cursor: pointer;
+
+                img {
+                    display: block;
+                }
+    
+                .gallery {
+                    text-align: center;
+                    padding: 5px 0;
+    
+                    span {
+                        color: white;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .comic-wrapper {
+        padding: 80px 0;
+
+        .comic-description-left {
+            width: 70%;
+            float: left;
+            padding-right: 40px;
+
+            h2 {
+                color: #003f5e;
+                text-transform: uppercase;
+            }
+
+            .price-wrapper {
+                width: 100%;
+                background-color: #55ba59;
+                border-bottom: 1px solid darkslategray;
+                color: white;
+                padding: 10px 15px;
+                margin: 15px 0 10px 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .sale-status-container {
+                display: flex;
+                align-items: center;
+
+                .sale-status {
+                    padding: 0 15px;
+
+                    span {
+                        text-transform: uppercase;
+                    }
+                }
+
+                .check-availability {
+                    padding: 0 15px;
+
+                    span {
+                        font-size: 10px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .comic-adv-right {
+            width: 30%;
+            float: right;
+            margin-top: -25px;
+
+            .adv-text {
+                text-align: right;
+                margin-bottom: 15px;
+
+                span {
+                    color: #555555;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+            }
+
+            .image-wrapper {
+                height: 250px;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: top;
+                }
+            }
+        }
+    }
+
+    
+    // general rules 
+    .container-center {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .clearfix {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+
+    .light-green-txt {
+        color: #a6f791;
+    }
+}

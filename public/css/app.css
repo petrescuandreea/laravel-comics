@@ -141,6 +141,133 @@ header nav ul li a {
   margin-right: 10px;
 }
 
+#comic .bg-light-blue {
+  height: 100px;
+  background-color: #0282f9;
+  position: relative;
+}
+
+#comic .bg-light-blue .comic-img-wrapper {
+  border: 2px solid white;
+  background-color: #00a9d9;
+  position: absolute;
+  bottom: 25px;
+}
+
+#comic .bg-light-blue .comic-img-wrapper a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#comic .bg-light-blue .comic-img-wrapper a img {
+  display: block;
+}
+
+#comic .bg-light-blue .comic-img-wrapper a .gallery {
+  text-align: center;
+  padding: 5px 0;
+}
+
+#comic .bg-light-blue .comic-img-wrapper a .gallery span {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#comic .comic-wrapper {
+  padding: 80px 0;
+}
+
+#comic .comic-wrapper .comic-description-left {
+  width: 70%;
+  float: left;
+  padding-right: 40px;
+}
+
+#comic .comic-wrapper .comic-description-left h2 {
+  color: #003f5e;
+  text-transform: uppercase;
+}
+
+#comic .comic-wrapper .comic-description-left .price-wrapper {
+  width: 100%;
+  background-color: #55ba59;
+  border-bottom: 1px solid darkslategray;
+  color: white;
+  padding: 10px 15px;
+  margin: 15px 0 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#comic .comic-wrapper .comic-description-left .sale-status-container {
+  display: flex;
+  align-items: center;
+}
+
+#comic .comic-wrapper .comic-description-left .sale-status-container .sale-status {
+  padding: 0 15px;
+}
+
+#comic .comic-wrapper .comic-description-left .sale-status-container .sale-status span {
+  text-transform: uppercase;
+}
+
+#comic .comic-wrapper .comic-description-left .sale-status-container .check-availability {
+  padding: 0 15px;
+}
+
+#comic .comic-wrapper .comic-description-left .sale-status-container .check-availability span {
+  font-size: 10px;
+  cursor: pointer;
+}
+
+#comic .comic-wrapper .comic-adv-right {
+  width: 30%;
+  float: right;
+  margin-top: -25px;
+}
+
+#comic .comic-wrapper .comic-adv-right .adv-text {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+#comic .comic-wrapper .comic-adv-right .adv-text span {
+  color: #555555;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#comic .comic-wrapper .comic-adv-right .image-wrapper {
+  height: 250px;
+}
+
+#comic .comic-wrapper .comic-adv-right .image-wrapper img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+#comic .container-center {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#comic .clearfix {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+#comic .light-green-txt {
+  color: #a6f791;
+}
+
 #footer-nav {
   background-image: url("/storage/assets/footer-bg.jpg");
 }
