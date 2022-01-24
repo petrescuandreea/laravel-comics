@@ -7,149 +7,19 @@
             </div>
     
             <div class="cards-container">
-                <div class="card">
-                    <a href="{{ route('single-page') }}">
-                        <div class="card-img">
-                            <img src="https://www.fr4med.it/wp-content/uploads/2021/06/batman-urban-legends-7-batman-beyond-1272981.jpeg" alt="comic image">
-                        </div>
-        
-                        <div class="card-title">
-                            Action comics
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="card">
-                    <a href="{{ route('single-page') }}">
-                        <div class="card-img">
-                            <img src="https://www.fr4med.it/wp-content/uploads/2021/06/batman-urban-legends-7-batman-beyond-1272981.jpeg" alt="comic image">
-                        </div>
-        
-                        <div class="card-title">
-                            Action comics
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="card">
-                    <a href="{{ route('single-page') }}">
-                        <div class="card-img">
-                            <img src="https://www.fr4med.it/wp-content/uploads/2021/06/batman-urban-legends-7-batman-beyond-1272981.jpeg" alt="comic image">
-                        </div>
-        
-                        <div class="card-title">
-                            Action comics
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="card">
-                    <a href="{{ route('single-page') }}">
-                        <div class="card-img">
-                            <img src="https://www.fr4med.it/wp-content/uploads/2021/06/batman-urban-legends-7-batman-beyond-1272981.jpeg" alt="comic image">
-                        </div>
-        
-                        <div class="card-title">
-                            Action comics
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="card">
-                    <a href="{{ route('single-page') }}">
-                        <div class="card-img">
-                            <img src="https://www.fr4med.it/wp-content/uploads/2021/06/batman-urban-legends-7-batman-beyond-1272981.jpeg" alt="comic image">
-                        </div>
-        
-                        <div class="card-title">
-                            Action comics
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="card">
-                    <a href="{{ route('single-page') }}">
-                        <div class="card-img">
-                            <img src="https://www.fr4med.it/wp-content/uploads/2021/06/batman-urban-legends-7-batman-beyond-1272981.jpeg" alt="comic image">
-                        </div>
-        
-                        <div class="card-title">
-                            Action comics
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="card">
-                    <a href="{{ route('single-page') }}">
-                        <div class="card-img">
-                            <img src="https://www.fr4med.it/wp-content/uploads/2021/06/batman-urban-legends-7-batman-beyond-1272981.jpeg" alt="comic image">
-                        </div>
-        
-                        <div class="card-title">
-                            Action comics
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="card">
-                    <a href="{{ route('single-page') }}">
-                        <div class="card-img">
-                            <img src="https://www.fr4med.it/wp-content/uploads/2021/06/batman-urban-legends-7-batman-beyond-1272981.jpeg" alt="comic image">
-                        </div>
-        
-                        <div class="card-title">
-                            Action comics
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="card">
-                    <a href="{{ route('single-page') }}">
-                        <div class="card-img">
-                            <img src="https://www.fr4med.it/wp-content/uploads/2021/06/batman-urban-legends-7-batman-beyond-1272981.jpeg" alt="comic image">
-                        </div>
-        
-                        <div class="card-title">
-                            Action comics
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="card">
-                    <a href="{{ route('single-page') }}">
-                        <div class="card-img">
-                            <img src="https://www.fr4med.it/wp-content/uploads/2021/06/batman-urban-legends-7-batman-beyond-1272981.jpeg" alt="comic image">
-                        </div>
-        
-                        <div class="card-title">
-                            Action comics
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="card">
-                    <a href="{{ route('single-page') }}">
-                        <div class="card-img">
-                            <img src="https://www.fr4med.it/wp-content/uploads/2021/06/batman-urban-legends-7-batman-beyond-1272981.jpeg" alt="comic image">
-                        </div>
-        
-                        <div class="card-title">
-                            Action comics
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="card">
-                    <a href="{{ route('single-page') }}">
-                        <div class="card-img">
-                            <img src="https://www.fr4med.it/wp-content/uploads/2021/06/batman-urban-legends-7-batman-beyond-1272981.jpeg" alt="comic image">
-                        </div>
-        
-                        <div class="card-title">
-                            Action comics
-                        </div>
-                    </a>
-                </div>
+                @foreach ($comicSeries as $comicSerie)
+                    <div class="card">
+                        <a href="{{ route('single-page') }}">
+                            <div class="card-img">
+                                <img src="{{ asset($comicSerie['image']) }}" alt="{{ $comicSerie['series'] }}">
+                            </div>
+            
+                            <div class="card-title">
+                                {{ $comicSerie['series'] }}
+                            </div>
+                        </a>
+                    </div>
+                @endforeach
             </div>
 
             <div class="btn-container" >
