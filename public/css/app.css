@@ -75,16 +75,25 @@ header nav ul li a {
   margin: 20px 5px;
 }
 
-#home-page-content .cards-container .card .card-img {
+#home-page-content .cards-container .card a {
+  text-decoration: none;
+  color: white;
+}
+
+#home-page-content .cards-container .card a:hover {
+  cursor: pointer;
+}
+
+#home-page-content .cards-container .card a .card-img {
   max-height: 200px;
   overflow: hidden;
 }
 
-#home-page-content .cards-container .card .card-img img {
+#home-page-content .cards-container .card a .card-img img {
   width: 100%;
 }
 
-#home-page-content .cards-container .card .card-title {
+#home-page-content .cards-container .card a .card-title {
   color: white;
 }
 
@@ -134,6 +143,10 @@ header nav ul li a {
   text-transform: uppercase;
   display: flex;
   align-items: center;
+}
+
+#home-page-shop ul li a:hover {
+  cursor: pointer;
 }
 
 #home-page-shop ul li a img {

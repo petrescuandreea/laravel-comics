@@ -24,18 +24,28 @@
             width: calc(100% / 6 - 10px);
             margin: 20px 5px;
 
-            .card-img {
-                max-height: 200px;
-                overflow: hidden;
-
-                img {
-                    width: 100%;
+            a {
+                text-decoration: none;
+                color: white;
+                
+                &:hover {
+                    cursor: pointer;
+                }
+                
+                .card-img {
+                    max-height: 200px;
+                    overflow: hidden;
+    
+                    img {
+                        width: 100%;
+                    }
+                }
+    
+                .card-title {
+                    color: white;
                 }
             }
 
-            .card-title {
-                color: white;
-            }
         }
     }
 
@@ -83,6 +93,10 @@
                 text-transform: uppercase;
                 display: flex;
                 align-items: center;
+
+                &:hover {
+                    cursor: pointer;
+                }
 
                 img {
                     
