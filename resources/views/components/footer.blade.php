@@ -64,7 +64,7 @@
             </div>
 
             <div class="logo">
-                <img src="{{ asset("img/dc-logo-bg.png") }}" alt="DC logo">
+                <img src="{{ asset("/storage/assets/dc-logo-bg.png") }}" alt="DC logo">
             </div>
         </div>
 
@@ -81,27 +81,27 @@
                 <ul id="social-icons">
                     <li>
                         <a href="#">
-                            <img src="{{ asset("img/footer-facebook.png") }}" alt="fb-logo">
+                            <img src="{{ asset("/storage/assets/footer-facebook.png") }}" alt="fb-logo">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="{{ asset("img/footer-twitter.png") }}" alt="twitter logo">
+                            <img src="{{ asset("/storage/assets/footer-twitter.png") }}" alt="twitter logo">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="{{ asset("img/footer-youtube.png") }}" alt="youtube logo">
+                            <img src="{{ asset("/storage/assets/footer-youtube.png") }}" alt="youtube logo">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="{{ asset("img/footer-pinterest.png") }}" alt="pinterest logo">
+                            <img src="{{ asset("/storage/assets/footer-pinterest.png") }}" alt="pinterest logo">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="{{ asset("img/footer-periscope.png") }}" alt="periscope logo">
+                            <img src="{{ asset("/storage/assets/footer-periscope.png") }}" alt="periscope logo">
                         </a>
                     </li>
                 </ul>
