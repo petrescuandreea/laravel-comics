@@ -140,35 +140,35 @@
         <ul class="container">
             <li>
                 <a href="#">
-                    <img src="{{ asset('img/buy-comics-digital-comics.png') }}" alt="">
+                    <img src="{{ asset('storage/assets/buy-comics-digital-comics.png') }}" alt="">
                     <span>Digital comics</span>
                 </a>
             </li>
 
             <li>
                 <a href="#">
-                    <img src="{{ asset('img/buy-comics-merchandise.png') }}" alt="">
+                    <img src="{{ asset('storage/assets/buy-comics-merchandise.png') }}" alt="">
                     <span>Dc merchandise</span>
                 </a>
             </li>
 
             <li>
                 <a href="#">
-                    <img src="{{ asset('img/buy-comics-subscriptions.png') }}" alt="">
+                    <img src="{{ asset('storage/assets/buy-comics-subscriptions.png') }}" alt="">
                     <span>Subscription</span>
                 </a>
             </li>
 
             <li>
                 <a href="#">
-                    <img src="{{ asset('img/buy-comics-shop-locator.png') }}" alt="">
+                    <img src="{{ asset('storage/assets/buy-comics-shop-locator.png') }}" alt="">
                     <span>Comic shop locator</span>
                 </a>
             </li>
 
             <li>
                 <a href="#">
-                    <img src="{{ asset('img/buy-dc-power-visa.svg') }}" alt="">
+                    <img src="{{ asset('storage/assets/buy-dc-power-visa.svg') }}" alt="">
                     <span>Dc power visa</span>
                 </a>
             </li>
