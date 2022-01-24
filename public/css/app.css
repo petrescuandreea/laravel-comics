@@ -40,7 +40,7 @@ header nav ul li a {
 
 .jumbo {
   height: 400px;
-  background-image: url("/img/jumbotron.jpg");
+  background-image: url("/storage/assets/jumbotron.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -142,7 +142,7 @@ header nav ul li a {
 }
 
 #footer-nav {
-  background-image: url("/img/footer-bg.jpg");
+  background-image: url("/storage/assets/footer-bg.jpg");
 }
 
 #footer-nav #nav-container {
