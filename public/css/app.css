@@ -95,6 +95,8 @@ header nav ul li a {
 
 #home-page-content .cards-container .card a .card-title {
   color: white;
+  text-transform: uppercase;
+  padding-top: 10px;
 }
 
 #home-page-content .btn-container {
