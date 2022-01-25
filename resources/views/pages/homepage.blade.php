@@ -32,40 +32,14 @@
 
     <section id="home-page-shop">
         <ul class="container">
-            <li>
-                <a href="#">
-                    <img src="{{ asset('storage/assets/buy-comics-digital-comics.png') }}" alt="">
-                    <span>Digital comics</span>
-                </a>
-            </li>
-
-            <li>
-                <a href="#">
-                    <img src="{{ asset('storage/assets/buy-comics-merchandise.png') }}" alt="">
-                    <span>Dc merchandise</span>
-                </a>
-            </li>
-
-            <li>
-                <a href="#">
-                    <img src="{{ asset('storage/assets/buy-comics-subscriptions.png') }}" alt="">
-                    <span>Subscription</span>
-                </a>
-            </li>
-
-            <li>
-                <a href="#">
-                    <img src="{{ asset('storage/assets/buy-comics-shop-locator.png') }}" alt="">
-                    <span>Comic shop locator</span>
-                </a>
-            </li>
-
-            <li>
-                <a href="#">
-                    <img src="{{ asset('storage/assets/buy-dc-power-visa.svg') }}" alt="">
-                    <span>Dc power visa</span>
-                </a>
-            </li>
+            @foreach ($comicShop as $shopItem)
+                <li>
+                    <a href=" {{ $shopItem['url'] }} ">
+                        <img src=" {{ asset($shopItem['image']) }} " alt=" {{ $shopItem['text'] }} ">
+                        <span> {{ $shopItem['text'] }} </span>
+                    </a>
+                </li>
+            @endforeach
         </ul>
     </section>
 @endsection
