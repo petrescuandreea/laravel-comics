@@ -57,9 +57,40 @@ class HomePageController extends Controller {
         ]
     ];
 
+    private $shopArr = [
+        [
+            "url" => "#",
+            "image" => "storage/assets/buy-comics-digital-comics.png",
+            "text" => "Digital comics"
+        ],
+        [
+            "url" => "#",
+            "image" => "storage/assets/buy-comics-merchandise.png",
+            "text" => "Dc merchandise"
+        ],
+        [
+            "url" => "#",
+            "image" => "storage/assets/buy-comics-subscriptions.png",
+            "text" => "Subscription"
+        ],
+        [
+            "url" => "#",
+            "image" => "storage/assets/buy-comics-shop-locator.png",
+            "text" => "Comic shop locator"
+        ],
+        [
+            "url" => "#",
+            "image" => "storage/assets/buy-dc-power-visa.svg",
+            "text" => "Dc power visa"
+        ]
+
+    ];
+
     public function homePage() {
 
         $comicSeries = $this -> comicSeriesArr;
-        return view('pages.homepage', compact('comicSeries'));
+        $comicShop = $this -> shopArr;
+
+        return view('pages.homepage', compact('comicSeries', 'comicShop'));
     }
 }
